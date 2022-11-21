@@ -10,6 +10,9 @@ module.exports = {
     "./src/*.js",
     "./src/**/*.js"
   ],
+  future: {
+    hoverOnlyWhenSupported: true,
+  },
   theme: {
     extend: {}
   },
